@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>Register Page</title>
+	<link href="reg_style.css" type="text/css" rel="stylesheet"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Poppins:wght@100;400;500;600;700&display=swap');
+    </style>
+</head>
+<body>
+    <div id="pageBody">
+        <div id ="logo">
+            <p id="lolokalLogo">LO<span>LOKAL</span></p>
+            <p id="tagline">Find Goods For You!<span> Sell Your Goods!</span></p>
+            <input type="button" id="shopBtn" value="SHOP" onclick="window.location.href='index.php'">
+            <input type="button" id="sellBtn" value="SELL" onclick="window.location.href='SellPage.html'">
+        </div>
+        <div id="signMenu">
+            <p id="signHeader">SIGN UP</p>
+            <form action="register-inc.php" method="post">
+                <input type="text" class="txtbox" id="fullname" name="fullname" placeholder="Full name"/><br/>
+                <input type="text" class="txtbox" id="username" name="username" placeholder="Username"/><br/>
+                <input type="email" class="txtbox" id="email" name="email" placeholder="Email"/><br/>
+                <input type="password" class="pwd" id="password" name="pwd" placeholder="Password"/><br/>
+                <select id="country" name="country">
+                    <option id="countryVal" value="Philippines">Philippines</option>
+                </select>
+                <input type="text" class="txtbox" id="phone" name="phone" placeholder="Phone Number(Optional)"><br/>
+                <button type="submit" id="regBtn" name="submit">REGISTER</button>
+                <a id="forgotPass" href="#pass">By continuing, you agree to Lolokal's Terms of Service and Privacy Policy</a>
+                <p id="pageDiv">
+                    <span>Already have an account?</span>
+                </p>
+            </form>
+        </div>
+        <button type="button" id="loginBtn" onClick="document.location.href='LoginPage.html'">LOG IN</button>
+    </div>
+</body>
+</html>

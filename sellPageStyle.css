@@ -1,0 +1,248 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color:rgb(255, 255, 255);
+    background-color: #523B35;
+    height: 100%;
+    margin-left: 5em;
+    margin-right: 5em;
+    
+}
+#lolokalLogo{
+    color:#F5E2CE ;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 0;
+    text-decoration: none;
+}
+#lolokalLogo span{
+    color:#C19A6B ;
+}
+nav{
+    align-items: center;
+    justify-content: space-between;
+}
+#search-bar{
+    position: relative;
+    margin-top: 1.3em;
+    margin-left: 22em;
+    border-radius:30px;
+    border: none;
+    padding: 20px; 
+    width: 746px;
+    height: 20px; 
+}
+input[id^="search-bar"]::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    opacity: 70%;
+}
+.nav-bar{
+    display: inline-block;
+}
+.nav-area button{
+    position: absolute;
+    padding: 20px 30px;
+    margin-top: 1.02em;
+    margin-left: -4.5em;
+    color: #F5E2CE;
+    background: #C19A6B;
+    font-size: 17px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    cursor: pointer;
+}
+.nav-area button:hover{
+   opacity: 80%;
+}
+.nav-area{
+    list-style: none;
+    font-weight: 600;
+}
+.nav-area li{
+    font-size: 16px;
+    margin-left: 1.9px;
+    display:inline-block;
+    padding: 10px 10px;
+}
+.nav-area li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.nav-area li a:hover, #span-user:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+#sell{
+    color:#C19A6B;
+}
+#item{
+    position: relative;
+    margin-top: 3em;
+    margin-bottom: 5em;
+    border-radius: 25px;
+    background: #BD9D77;
+    padding: 20px; 
+    width: 1280px;
+    min-height: 1170px; 
+}
+#itemHeader{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin-left: 2em;
+    border-bottom: 2px solid #523b35;
+    width:94%
+}
+#itemSpan{
+    color: #523b35;
+}
+#productName{
+    margin-top: 2em;
+    margin-left: 3em;
+}
+#pNameTxtbox{
+    margin-left: 1em;
+    width: 80%;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    background-color: #f8f8f8;
+    font-family: 'Montserrat', sans-serif;;
+}
+#sNameTxtbox{
+    margin-left: 1em;
+    margin-top:1em;
+    width: 80%;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    background-color: #f8f8f8;
+    font-family: 'Montserrat', sans-serif;;
+}
+#imageBox{
+    float: left;
+    margin-left: 3em;
+    margin-top: 3em;
+    min-height: 1000px;
+}
+.inputFile {
+    color: transparent;
+    width: 500px;
+}
+.inputFile::-webkit-file-upload-button{
+    visibility: hidden;
+}
+.inputFile::before{
+    content: 'Upload Image';
+    display: inline-block;
+    margin-top: 1em;
+    margin-left: 15em;
+    font-weight: 700;
+    border-radius: 15px;
+    padding:10px;
+    font-size: 16px;
+    background-color: #f5e2ce;
+    cursor: pointer;
+    color: #523b35;
+}
+.inputFile:hover::before{
+    background-color: #e9d3bc;
+}
+.display-image{
+    width: 600px;
+    min-height:400px;
+    background-color: #fafafa;
+    color: #523B35;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.image-preview-img{
+    display: none;
+    width: 100%;
+}
+.image-preview-span{
+    font-size: 20px;
+}
+#productDetails{
+    margin-top: 2em;
+}
+#dropdownMenu{
+    margin-top: 1em;
+    margin-left: 2em;
+    width: 500px;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;;
+}
+#productBrand{
+    margin-top: 1em;
+}
+.txtBox{
+    margin-left: 2em;
+    width: 500px;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;;
+}
+.productDesc{
+    margin-left: 2em;
+    border-radius: 15px;
+    font-size: 16px;
+    width: 500px;
+    min-height: 250px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;;
+}
+#itemDetail{
+    color: #523b35;
+    margin-left: 21em;
+}
+#itemDetailSpan{
+    color: #ffffff;
+}
+.itemBtn{
+    margin-top: 2em;
+    margin-left: 1em;
+}
+#listBtn{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    padding: 15px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #f5e2ce;
+    background-color: #523b35; 
+}
+#cancelBtn{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    padding: 15px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #523b35;    
+    background-color: #f5e2ce;
+    margin-left: 19em;
+}
+#cancelBtn:hover{
+    background-color: #e9d3bc;
+}
+#listBtn:hover{
+    background-color: #362420;
+}

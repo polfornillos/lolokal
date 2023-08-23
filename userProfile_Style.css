@@ -1,0 +1,322 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color:rgb(255, 255, 255);
+    background-color: #523B35;
+    height: 100%;
+    margin-left: 5em;
+    margin-right: 5em;
+    
+}
+#lolokalLogo{
+    color:#F5E2CE ;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 0;
+}
+#lolokalLogo span{
+    color:#C19A6B ;
+}
+nav{
+    
+    align-items: center;
+    justify-content: space-between;
+}
+#search-bar{
+    position: relative;
+    margin-top: 1.3em;
+    margin-left: 22em;
+    border-radius:30px;
+    border: none;
+    padding: 20px; 
+    width: 746px;
+    height: 20px; 
+}
+input[id^="search-bar"]::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    opacity: 70%;
+}
+.nav-bar{
+    display: inline-block;
+}
+.nav-area button{
+    position: absolute;
+    padding: 20px 30px;
+
+    margin-top: 1.02em;
+    margin-left: -4.5em;
+    color: #F5E2CE;
+    background: #C19A6B;
+    font-size: 17px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    cursor: pointer;
+}
+.nav-area button:hover{
+   opacity: 80%;
+}
+.nav-area{
+    list-style: none;
+    font-weight: 600;
+}
+.nav-area li{
+    font-size: 16px;
+    margin-left: 7px;
+    display:inline-block;
+    padding: 10px 10px;
+}
+.nav-area li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.nav-area li a:hover, #span-user:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+#sell{
+    color:#C19A6B;
+}
+#span-user{
+    color: #F5E2CE;;
+}
+#user{
+    position: relative;
+    margin-top: 3em;
+}
+#userBody{
+    position:relative;
+    margin-bottom: 5em;
+    border-radius: 25px;
+    background: #BD9D77;
+    padding: 20px; 
+    width: 1280px;
+    height: 1000px; 
+}
+#userHeader {
+    position:absolute;
+    top: 0;
+    border-radius: 25px 25px 0px 0px;
+    background: url("Images/pexels-nikko-tan-133689.jpg");
+    background-repeat: no-repeat;
+    background-position: -30px -250px;
+    background-size: 1500px 500px;
+    box-shadow: 0 0px 6px rgba(0,0,0,0.35);
+
+    padding: 20px; 
+    width: 1280px;
+    height: 160px; 
+}
+#circle {
+    position: absolute;
+    z-index: 1;
+    height: 200px;
+    width: 200px;
+    background-color: #dddddd;
+    border-radius: 50%;
+    margin-top: 6em;
+    margin-left: 1.5em;
+}
+#userprofile{
+    z-index: 1;
+    color: #C4C4C4;
+    margin-left: 48px;
+    margin-top: 40px;
+}
+#userDetails {
+    position:absolute;
+    z-index: 0;
+    top: 0;
+    background-color: #C19A6B;
+    box-shadow: 0 0px 6px rgba(0,0,0,0.35);
+
+    margin-top: 12.5em;
+    padding: 20px; 
+    width: 1280px;
+    height: 170px; 
+}
+#userNames{
+    margin-top: -3em;
+    margin-left: 16em;
+    
+}
+#userNames p:nth-of-type(1) {
+    margin-bottom: -35px;
+    font-weight: 400;
+    font-size: 50px;
+}
+#userNames p:nth-of-type(2) {
+    font-weight: 200;
+    font-size: 20px;
+}
+#userPhone{
+    position:absolute;
+    max-height: 30px;
+    max-width: 250px;
+    margin-top: -6px;
+    margin-left: 15.5em;
+}
+#userPhone p{
+    
+    background-color: #ffffff;
+    color: black;
+    box-shadow: 0 0px 6px rgba(0,0,0,0.35);
+    border: none;
+    margin-top: 2px;
+    border-radius:50px;
+    padding:15px 20px;
+    
+    line-height: 30px;
+    letter-spacing: 5px;
+    font-size: 25px;
+    height: 20px;
+    width: 220px;
+}
+#userPhone button{
+    position: absolute;
+    padding:15.5px 25px;
+    margin-left: 12em;
+    margin-top: -4.43em;
+    color: #F5E2CE;
+    background:#523B35;
+    font-size: 17px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    cursor: pointer;
+}
+#userReview{
+    display: inline-block;
+    padding: 0;
+    max-width: 150px;
+    margin-top: -15px;
+    margin-left: 4em;
+}
+#userReview #num-stars{
+    display: inline-block;
+    
+}  
+#userReview #num-reviews{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: -1em;
+}    
+#user-btns{
+    position: absolute;
+    margin-top: -9.5em;
+    right: 3em;
+    display: block;
+}
+#editBtn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    margin-right: .5em;
+    border: none;
+    background: #ffffff;
+    color: #523B35;
+    height: 45px;
+    width: 160px;
+    cursor: pointer;
+}
+#sellBtn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 25px;
+    border: none;
+    background: #ffffff;
+    color: #523B35;
+    height: 45px;
+    width: 160px;
+    cursor: pointer;
+}
+#socials{
+    color:#ffffff ;
+    margin-top: .3em;
+    margin-left: 3.5em;
+}
+#listings{
+    position: absolute;
+    margin-top: 3em;
+    margin-left: 1.6em;
+    margin-bottom: 5em;
+    border-radius: 25px;
+    background: #F5F5F5;
+    width: 1230px;
+    height: 550px;
+}
+#listings p{
+    position: absolute;
+    margin-left: 2em;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 35px;
+    color: #523B35;
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 7px solid #F5E2CE;
+    
+}
+.dropbtn {
+    position: absolute;
+    margin-top: 3.5em;
+    margin-left: 18em;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #523B35;
+    
+}
+#listings-search-bar{
+    background-color: #EAEAEA;
+    position: relative;
+    margin-left: 55em;
+    margin-top: 3em;
+    border-radius:30px;
+    border: none;
+    padding: 15px; 
+    width: 400px;
+    height: 20px; 
+    box-shadow: 0 0px 6px rgba(0,0,0,0.20);
+}
+input[id^="listings-search-bar"]::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    opacity: 60%;
+}
+.productList{
+    float:left;
+}
+.productImg{
+    width:320px;
+    height:300px;
+    margin-top: 5%;
+    margin-left:35%;
+    border-radius: 50px;
+    box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.3);
+}
+.productName{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #C19A6B;
+    box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.3);
+    width: 60%;
+    padding: 10px;
+    margin-top: 3%;
+    margin-left:40%;
+    border-radius: 50px;
+}
+#item-price{
+    width: auto;
+    margin-left:80%;
+    font-size:11px;
+}

@@ -1,0 +1,222 @@
+body {
+    background-color: #523B35;
+    margin-right: 5em;
+    margin-left: 4em;
+}
+#pageBody{
+    margin-top: 2.3em;
+    position: relative;
+    background-color: #C19A6B;
+    border-radius: 25px;
+    width: 1366px;
+    height: 720px;
+}
+#lolokalLogo{
+    position: absolute;
+    color:#523B35 ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 130px;
+    position: absolute;
+    font-weight: bold;
+    margin-left: 0.65em;
+    margin-top: 160px;
+}
+#lolokalLogo span{
+    color:#f5e2ce;
+}
+#tagline{
+    color:#523B35 ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    position: absolute;
+    font-weight: 600;
+    margin-left: 5.1em;
+    margin-top: 17.3em;
+}
+#tagline span{
+    color:#f5e2ce ;
+}
+#signMenu{
+    background-color: #f5e2ce;
+    border-radius: 25px;
+    width: 470px;
+    height: 530px;
+    margin-top: 2.5em;
+    margin-left: 50em;
+    position: absolute;
+}
+#signHeader{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    font-size: 30px;
+    color:#523B35;
+    margin-left: 5%;
+}
+#fullname{
+    border-radius: 13px;
+    border: none;
+    position: absolute;
+    padding: 13px; 
+    width: 415px;
+    height: 45px;
+    margin-left:25px;
+    margin-top:80px;
+    background-color: #e9d7c4;   
+}
+#username{
+    border-radius: 13px;
+    border: none;
+    position: absolute;
+    padding: 13px;
+    width: 415px;
+    height: 45px;
+    margin-left:25px;
+    margin-top:120px;
+    background-color: #e9d7c4;
+}
+#email{
+    border-radius: 13px;
+    border: none;
+    position: absolute;
+    padding: 13px;
+    width: 415px;
+    height: 45px;
+    margin-left:25px;
+    margin-top:160px;
+    background-color: #e9d7c4;    
+}
+#password{
+    border-radius: 13px;
+    border: none;
+    position: absolute;
+    padding: 13px;
+    width: 415px;
+    height: 45px;
+    margin-left:25px;
+    margin-top:200px;
+    background-color: #e9d7c4;    
+}
+#country{
+    border-radius: 13px;
+    border: none;
+    position: absolute;
+    padding: 13px;
+    width: 415px;
+    font-size: 15px;
+    margin-left:25px;
+    margin-top:240px;
+    background-color: #e9d7c4;    
+}
+
+#phone{
+    border-radius: 13px;
+    border: none;
+    position: absolute;
+    padding: 13px;
+    width: 415px;
+    height: 45px;
+    margin-left:25px;
+    margin-top:300px;
+    background-color: #e9d7c4;
+}
+#regBtn{
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    width: 420px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f5e2ce;
+    margin-left:25px;
+    margin-top:17.5em;
+    background-color: #523b35;    
+}
+#shopBtn{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    padding: 15px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #f5e2ce;
+    margin-left:5.5em;
+    margin-top:23em;    
+    background-color: #523b35;    
+}
+#sellBtn{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    padding: 15px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #523b35;
+    margin-left:14em;
+    margin-top:23em;        
+    background-color: #f5e2ce;
+}
+#sellBtn:hover{
+    background-color: #e9d3bc;
+}
+#shopBtn:hover{
+    background-color: #362420;
+}
+#regBtn:hover{
+    background-color: #362420;
+}
+#forgotPass{
+    color:#523b35;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    margin-top: 405px;
+    margin-left: 3.8em;
+    font-size: 11px;
+}
+#pageDiv{
+    font-family: 'Poppins', sans-serif;
+    color:#f5e2ce; 
+    font-size: 14px;
+    display: block;
+    border-bottom: solid 2px #f5e2ce;
+}
+#pageDiv span {
+    position:relative;
+    margin-top:30.5em;
+    margin-left:10em;
+    bottom: -10px;
+    background-color: #C19A6B;
+    display: inline-block;
+    padding: 0 10px;
+}
+#loginBtn{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+    padding: 15px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    width: 470px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #523b35;
+    margin-left:40em;
+    margin-top:31em;
+    background-color: #f5e2ce;
+}
+#loginBtn:hover{
+    background-color: #e9d3bc;
+}
